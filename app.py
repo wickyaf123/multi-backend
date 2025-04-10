@@ -10,11 +10,17 @@ from logic import find_multi_combination, ODDS_TOLERANCE, MAX_ALTERNATIVES, MAX_
 
 app = Flask(__name__)
 # Get allowed origins from environment variable or use default
-allowed_origins = os.environ.get('ALLOWED_ORIGINS', 'http://localhost:3000').split(',')
-CORS(app, resources={r"/api/*": {"origins": allowed_origins}})
+allowed_origins = os.environ.get('ALLOWED_ORIGINS', 'http://localhost:3000,https://multi-frontend-mu.vercel.app').split(',')
+# Enable CORS for all routes, not just /api/* to be safe
+CORS(app, origins=allowed_origins, supports_credentials=True)
 
 @app.route('/api/generate-multi', methods=['POST'])
 def generate_multi():
+    # Log the request to help with debugging
+    print(f"Received request from: {request.origin if hasattr(request, 'origin') else 'Unknown'}")
+    print(f"Request method: {request.method}")
+    print(f"Request headers: {request.headers}")
+    
     data = request.get_json()
     if not data:
         return jsonify({"error": "Invalid request body"}), 400
