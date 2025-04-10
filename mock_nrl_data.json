@@ -1,0 +1,50 @@
+[
+  {
+    "gameId": "NRL2024_R10_G1",
+    "gameDescription": "Panthers vs Storm",
+    "datetime": "2024-05-10T19:50:00Z",
+    "bets": [
+      {"playerId": "P001", "playerName": "Dylan Edwards", "market": "ATS", "odds": 2.10},
+      {"playerId": "P001", "playerName": "Dylan Edwards", "market": "2+", "odds": 6.50},
+      {"playerId": "P002", "playerName": "Brian To'o", "market": "ATS", "odds": 1.90},
+      {"playerId": "S001", "playerName": "Ryan Papenhuyzen", "market": "ATS", "odds": 2.50},
+      {"playerId": "S001", "playerName": "Ryan Papenhuyzen", "market": "2+", "odds": 8.00}
+    ]
+  },
+  {
+    "gameId": "NRL2024_R10_G2",
+    "gameDescription": "Eels vs Broncos",
+    "datetime": "2024-05-10T20:00:00Z",
+    "bets": [
+       {"playerId": "E001", "playerName": "Clinton Gutherson", "market": "ATS", "odds": 2.80},
+       {"playerId": "E002", "playerName": "Maika Sivo", "market": "ATS", "odds": 1.85},
+       {"playerId": "E002", "playerName": "Maika Sivo", "market": "2+", "odds": 5.00},
+       {"playerId": "B001", "playerName": "Reece Walsh", "market": "ATS", "odds": 2.20},
+       {"playerId": "B001", "playerName": "Reece Walsh", "market": "2+", "odds": 7.00}
+    ]
+  },
+  {
+    "gameId": "NRL2024_R10_G3",
+    "gameDescription": "Roosters vs Dragons",
+    "datetime": "2024-05-11T09:00:00Z",
+    "bets": [
+       {"playerId": "R001", "playerName": "James Tedesco", "market": "ATS", "odds": 2.25},
+       {"playerId": "R001", "playerName": "James Tedesco", "market": "2+", "odds": 7.50},
+       {"playerId": "R002", "playerName": "Joseph Suaalii", "market": "ATS", "odds": 1.95},
+       {"playerId": "D001", "playerName": "Zac Lomax", "market": "ATS", "odds": 2.70},
+       {"playerId": "D002", "playerName": "Ben Hunt", "market": "ATS", "odds": 3.60}
+    ]
+  },
+  {
+    "gameId": "NRL2024_R10_G4",
+    "gameDescription": "Rabbitohs vs Raiders",
+    "datetime": "2024-05-11T11:30:00Z",
+    "bets": [
+       {"playerId": "S001", "playerName": "Latrell Mitchell", "market": "ATS", "odds": 2.00},
+       {"playerId": "S001", "playerName": "Latrell Mitchell", "market": "2+", "odds": 5.50},
+       {"playerId": "S002", "playerName": "Campbell Graham", "market": "ATS", "odds": 2.10},
+       {"playerId": "R001", "playerName": "Jordan Rapana", "market": "ATS", "odds": 2.45},
+       {"playerId": "R002", "playerName": "Hudson Young", "market": "ATS", "odds": 3.80}
+    ]
+  }
+] 
