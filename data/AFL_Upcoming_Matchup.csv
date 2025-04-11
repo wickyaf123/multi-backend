@@ -1,0 +1,461 @@
+,Player,Team,matchup
+1,Mitchell Hinge  ,Adelaide,Adelaide vs Geelong
+2,Josh Worrell  ,Adelaide,Adelaide vs Geelong
+3,Rory Laird  ,Adelaide,Adelaide vs Geelong
+4,Wayne Milera  ,Adelaide,Adelaide vs Geelong
+5,Mark Keane  ,Adelaide,Adelaide vs Geelong
+6,Max Michalanney  ,Adelaide,Adelaide vs Geelong
+7,Isaac Cumming  ,Adelaide,Adelaide vs Geelong
+8,Jordan Dawson  ,Adelaide,Adelaide vs Geelong
+9,Lachlan Sholl  ,Adelaide,Adelaide vs Geelong
+10,Ben Keays  ,Adelaide,Adelaide vs Geelong
+11,Riley Thilthorpe  ,Adelaide,Adelaide vs Geelong
+12,Izak Rankine  ,Adelaide,Adelaide vs Geelong
+13,Darcy Fogarty  ,Adelaide,Adelaide vs Geelong
+14,Taylor Walker  ,Adelaide,Adelaide vs Geelong
+15,Alex Neal-Bullen  ,Adelaide,Adelaide vs Geelong
+16,Reilly O'Brien  ,Adelaide,Adelaide vs Geelong
+17,Jake Soligo  ,Adelaide,Adelaide vs Geelong
+18,James Peatling  ,Adelaide,Adelaide vs Geelong
+19,Daniel Curtin  ,Adelaide,Adelaide vs Geelong
+20,Sid Draper  ,Adelaide,Adelaide vs Geelong
+21,Luke Nankervis  ,Adelaide,Adelaide vs Geelong
+22,Matt Crouch,Adelaide,Adelaide vs Geelong
+23,Connor O'Sullivan  ,Geelong,Adelaide vs Geelong
+24,Sam De Koning  ,Geelong,Adelaide vs Geelong
+25,Mark Blicavs  ,Geelong,Adelaide vs Geelong
+26,Lawson Humphries  ,Geelong,Adelaide vs Geelong
+27,Max Holmes  ,Geelong,Adelaide vs Geelong
+28,Zach Guthrie  ,Geelong,Adelaide vs Geelong
+29,Oliver Henry  ,Geelong,Adelaide vs Geelong
+30,Patrick Dangerfield  ,Geelong,Adelaide vs Geelong
+31,Oliver Dempsey  ,Geelong,Adelaide vs Geelong
+32,Brad Close  ,Geelong,Adelaide vs Geelong
+33,Mitch Knevitt  ,Geelong,Adelaide vs Geelong
+34,Shaun Mannagh  ,Geelong,Adelaide vs Geelong
+35,Shannon Neale  ,Geelong,Adelaide vs Geelong
+36,Jeremy Cameron  ,Geelong,Adelaide vs Geelong
+37,Tyson Stengle  ,Geelong,Adelaide vs Geelong
+38,Rhys Stanley  ,Geelong,Adelaide vs Geelong
+39,Bailey Smith  ,Geelong,Adelaide vs Geelong
+40,Tom Atkins  ,Geelong,Adelaide vs Geelong
+41,Oisin Mullin  ,Geelong,Adelaide vs Geelong
+42,Gryan Miers  ,Geelong,Adelaide vs Geelong
+43,Jack Bowes  ,Geelong,Adelaide vs Geelong
+44,Mark O'Connor,Geelong,Adelaide vs Geelong
+45,Brayden Maynard  ,Collingwood,Collingwood vs Sydney
+46,Billy Frampton  ,Collingwood,Collingwood vs Sydney
+47,Jeremy Howe  ,Collingwood,Collingwood vs Sydney
+48,Josh Daicos  ,Collingwood,Collingwood vs Sydney
+49,Darcy Moore  ,Collingwood,Collingwood vs Sydney
+50,Harry Perryman  ,Collingwood,Collingwood vs Sydney
+51,Patrick Lipinski  ,Collingwood,Collingwood vs Sydney
+52,Steele Sidebottom  ,Collingwood,Collingwood vs Sydney
+53,Jack Crisp  ,Collingwood,Collingwood vs Sydney
+54,Bobby Hill  ,Collingwood,Collingwood vs Sydney
+55,Brody Mihocek  ,Collingwood,Collingwood vs Sydney
+56,Lachlan Sullivan  ,Collingwood,Collingwood vs Sydney
+57,Beau McCreery  ,Collingwood,Collingwood vs Sydney
+58,Daniel McStay  ,Collingwood,Collingwood vs Sydney
+59,Tim Membrey  ,Collingwood,Collingwood vs Sydney
+60,Darcy Cameron  ,Collingwood,Collingwood vs Sydney
+61,Ned Long  ,Collingwood,Collingwood vs Sydney
+62,Nick Daicos  ,Collingwood,Collingwood vs Sydney
+63,Isaac Quaynor  ,Collingwood,Collingwood vs Sydney
+64,Jamie Elliott  ,Collingwood,Collingwood vs Sydney
+65,Scott Pendlebury  ,Collingwood,Collingwood vs Sydney
+66,Edward Allan  ,Collingwood,Collingwood vs Sydney
+67,Will Hoskin-Elliott  ,Collingwood,Collingwood vs Sydney
+68,Charlie West  ,Collingwood,Collingwood vs Sydney
+69,Oleg Markov  ,Collingwood,Collingwood vs Sydney
+70,Mason Cox,Collingwood,Collingwood vs Sydney
+71,Joel Hamling  ,Sydney,Collingwood vs Sydney
+72,Dane Rampe  ,Sydney,Collingwood vs Sydney
+73,Nick Blakey  ,Sydney,Collingwood vs Sydney
+74,Sam Wicks  ,Sydney,Collingwood vs Sydney
+75,Matt Roberts  ,Sydney,Collingwood vs Sydney
+76,Oliver Florent  ,Sydney,Collingwood vs Sydney
+77,Braeden Campbell  ,Sydney,Collingwood vs Sydney
+78,Isaac Heeney  ,Sydney,Collingwood vs Sydney
+79,Jake Lloyd  ,Sydney,Collingwood vs Sydney
+80,Hayden McLean  ,Sydney,Collingwood vs Sydney
+81,Will Hayward  ,Sydney,Collingwood vs Sydney
+82,James Jordon  ,Sydney,Collingwood vs Sydney
+83,Joel Amartey  ,Sydney,Collingwood vs Sydney
+84,Tom McCartin  ,Sydney,Collingwood vs Sydney
+85,Corey Warner  ,Sydney,Collingwood vs Sydney
+86,Brodie Grundy  ,Sydney,Collingwood vs Sydney
+87,Chad Warner  ,Sydney,Collingwood vs Sydney
+88,James Rowbottom  ,Sydney,Collingwood vs Sydney
+89,Riley Bice  ,Sydney,Collingwood vs Sydney
+90,Peter Ladhams  ,Sydney,Collingwood vs Sydney
+91,Tom Hanily  ,Sydney,Collingwood vs Sydney
+92,Caiden Cleary  ,Sydney,Collingwood vs Sydney
+93,Angus Sheldrick  ,Sydney,Collingwood vs Sydney
+94,Ben Paton  ,Sydney,Collingwood vs Sydney
+95,Aaron Francis  ,Sydney,Collingwood vs Sydney
+96,Caleb Mitchell,Sydney,Collingwood vs Sydney
+97,Charlie Comben  ,North Melbourne,North Melbourne vs Gold Coast
+98,Aidan Corr  ,North Melbourne,North Melbourne vs Gold Coast
+99,Griffin Logue  ,North Melbourne,North Melbourne vs Gold Coast
+100,Luke McDonald  ,North Melbourne,North Melbourne vs Gold Coast
+101,Caleb Daniel  ,North Melbourne,North Melbourne vs Gold Coast
+102,Darcy Tucker  ,North Melbourne,North Melbourne vs Gold Coast
+103,Finn O'Sullivan  ,North Melbourne,North Melbourne vs Gold Coast
+104,Tom Powell  ,North Melbourne,North Melbourne vs Gold Coast
+105,Colby McKercher  ,North Melbourne,North Melbourne vs Gold Coast
+106,Paul Curtis  ,North Melbourne,North Melbourne vs Gold Coast
+107,Nick Larkey  ,North Melbourne,North Melbourne vs Gold Coast
+108,Harry Sheezel  ,North Melbourne,North Melbourne vs Gold Coast
+109,Cameron Zurhaar  ,North Melbourne,North Melbourne vs Gold Coast
+110,Jack Darling  ,North Melbourne,North Melbourne vs Gold Coast
+111,Jacob Konstanty  ,North Melbourne,North Melbourne vs Gold Coast
+112,Tristan Xerri  ,North Melbourne,North Melbourne vs Gold Coast
+113,Luke Davies-Uniacke  ,North Melbourne,North Melbourne vs Gold Coast
+114,Jy Simpkin  ,North Melbourne,North Melbourne vs Gold Coast
+115,Zane Duursma  ,North Melbourne,North Melbourne vs Gold Coast
+116,Dylan Stephens  ,North Melbourne,North Melbourne vs Gold Coast
+117,Zac Fisher  ,North Melbourne,North Melbourne vs Gold Coast
+118,Riley Hardeman  ,North Melbourne,North Melbourne vs Gold Coast
+119,Luke Parker  ,North Melbourne,North Melbourne vs Gold Coast
+120,Bailey Scott  ,North Melbourne,North Melbourne vs Gold Coast
+121,Toby Pink  ,North Melbourne,North Melbourne vs Gold Coast
+122,Brynn Teakle,North Melbourne,North Melbourne vs Gold Coast
+123,Wil Powell  ,Gold Coast,North Melbourne vs Gold Coast
+124,Sam Collins  ,Gold Coast,North Melbourne vs Gold Coast
+125,Bodhi Uwland  ,Gold Coast,North Melbourne vs Gold Coast
+126,John Noble  ,Gold Coast,North Melbourne vs Gold Coast
+127,Mac Andrew  ,Gold Coast,North Melbourne vs Gold Coast
+128,Daniel Rioli  ,Gold Coast,North Melbourne vs Gold Coast
+129,Lachie Weller  ,Gold Coast,North Melbourne vs Gold Coast
+130,Matt Rowell  ,Gold Coast,North Melbourne vs Gold Coast
+131,Sam Clohesy  ,Gold Coast,North Melbourne vs Gold Coast
+132,Ben Ainsworth  ,Gold Coast,North Melbourne vs Gold Coast
+133,Touk Miller  ,Gold Coast,North Melbourne vs Gold Coast
+134,Sam Flanders  ,Gold Coast,North Melbourne vs Gold Coast
+135,Ben King  ,Gold Coast,North Melbourne vs Gold Coast
+136,Bailey Humphrey  ,Gold Coast,North Melbourne vs Gold Coast
+137,Ethan Read  ,Gold Coast,North Melbourne vs Gold Coast
+138,Jarrod Witts  ,Gold Coast,North Melbourne vs Gold Coast
+139,Will Graham  ,Gold Coast,North Melbourne vs Gold Coast
+140,Noah Anderson  ,Gold Coast,North Melbourne vs Gold Coast
+141,Jed Walter  ,Gold Coast,North Melbourne vs Gold Coast
+142,Nick Holman  ,Gold Coast,North Melbourne vs Gold Coast
+143,Ben Long  ,Gold Coast,North Melbourne vs Gold Coast
+144,Jake Rogers  ,Gold Coast,North Melbourne vs Gold Coast
+145,Joel Jeffrey  ,Gold Coast,North Melbourne vs Gold Coast
+146,Brayden Fiorini  ,Gold Coast,North Melbourne vs Gold Coast
+147,Ned Moyle  ,Gold Coast,North Melbourne vs Gold Coast
+148,Caleb Graham,Gold Coast,North Melbourne vs Gold Coast
+149,Jack Silvagni  ,Carlton,Carlton vs West Coast
+150,Jacob Weitering  ,Carlton,Carlton vs West Coast
+151,Nick Haynes  ,Carlton,Carlton vs West Coast
+152,Adam Saad  ,Carlton,Carlton vs West Coast
+153,Mitch McGovern  ,Carlton,Carlton vs West Coast
+154,Zac Williams  ,Carlton,Carlton vs West Coast
+155,Blake Acres  ,Carlton,Carlton vs West Coast
+156,Patrick Cripps  ,Carlton,Carlton vs West Coast
+157,Adam Cerra  ,Carlton,Carlton vs West Coast
+158,Lachie Fogarty  ,Carlton,Carlton vs West Coast
+159,Harry McKay  ,Carlton,Carlton vs West Coast
+160,Sam Docherty  ,Carlton,Carlton vs West Coast
+161,Matthew Cottrell  ,Carlton,Carlton vs West Coast
+162,Charlie Curnow  ,Carlton,Carlton vs West Coast
+163,Jesse Motlop  ,Carlton,Carlton vs West Coast
+164,Tom De Koning  ,Carlton,Carlton vs West Coast
+165,George Hewett  ,Carlton,Carlton vs West Coast
+166,Sam Walsh  ,Carlton,Carlton vs West Coast
+167,Matthew Carroll  ,Carlton,Carlton vs West Coast
+168,Oliver Hollands  ,Carlton,Carlton vs West Coast
+169,Brodie Kemp  ,Carlton,Carlton vs West Coast
+170,Corey Durdin  ,Carlton,Carlton vs West Coast
+171,Will White  ,Carlton,Carlton vs West Coast
+172,Elijah Hollands  ,Carlton,Carlton vs West Coast
+173,Lewis Young  ,Carlton,Carlton vs West Coast
+174,Cooper Lord,Carlton,Carlton vs West Coast
+175,Brady Hough  ,West Coast,Carlton vs West Coast
+176,Harry Edwards  ,West Coast,Carlton vs West Coast
+177,Reuben Ginbey  ,West Coast,Carlton vs West Coast
+178,Jayden Hunt  ,West Coast,Carlton vs West Coast
+179,Sandy Brock  ,West Coast,Carlton vs West Coast
+180,Ryan Maric  ,West Coast,Carlton vs West Coast
+181,Tyrell Dewar  ,West Coast,Carlton vs West Coast
+182,Liam Duggan  ,West Coast,Carlton vs West Coast
+183,Jack Graham  ,West Coast,Carlton vs West Coast
+184,Jamie Cripps  ,West Coast,Carlton vs West Coast
+185,Jake Waterman  ,West Coast,Carlton vs West Coast
+186,Matthew Owies  ,West Coast,Carlton vs West Coast
+187,Archer Reid  ,West Coast,Carlton vs West Coast
+188,Oscar Allen  ,West Coast,Carlton vs West Coast
+189,Liam Ryan  ,West Coast,Carlton vs West Coast
+190,Bailey J. Williams  ,West Coast,Carlton vs West Coast
+191,Liam Baker  ,West Coast,Carlton vs West Coast
+192,Harley Reid  ,West Coast,Carlton vs West Coast
+193,Tom Gross  ,West Coast,Carlton vs West Coast
+194,Clay Hall  ,West Coast,Carlton vs West Coast
+195,Jack Williams  ,West Coast,Carlton vs West Coast
+196,Hamish Davis  ,West Coast,Carlton vs West Coast
+197,Jack Hutchinson  ,West Coast,Carlton vs West Coast
+198,Harvey Johnston  ,West Coast,Carlton vs West Coast
+199,Matt Flynn  ,West Coast,Carlton vs West Coast
+200,Tom Cole,West Coast,Carlton vs West Coast
+201,Buku Khamis  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+202,Liam Jones  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+203,Lachlan Bramble  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+204,Jason Johannisen  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+205,Rory Lobb  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+206,Bailey Dale  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+207,Bailey Williams  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+208,Tom Liberatore  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+209,Sam Davidson  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+210,Cooper Hynes  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+211,Aaron Naughton  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+212,Ryley Sanders  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+213,James O'Donnell  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+214,Sam Darcy  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+215,James Harmes  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+216,Tim English  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+217,Matthew Kennedy  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+218,Ed Richards  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+219,Luke Cleary  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+220,Josh Dolan  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+221,Joel Freijah  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+222,Lachlan McNeil  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+223,Rhylee West  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+224,Jedd Busslinger  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+225,Harvey Gallagher  ,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+226,Caleb Poulter,Western Bulldogs,Western Bulldogs vs Brisbane Lions
+227,Dayne Zorko  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+228,Jack Payne  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+229,Ryan Lester  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+230,Noah Answerth  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+231,Harris Andrews  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+232,Darcy Wilmot  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+233,Jaspa Fletcher  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+234,Zac Bailey  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+235,Jarrod Berry  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+236,Charlie Cameron  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+237,Eric Hipwood  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+238,Hugh McCluggage  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+239,Cam Rayner  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+240,Sam Day  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+241,Logan Morris  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+242,Oscar McInerney  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+243,Josh Dunkley  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+244,Lachie Neale  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+245,Callum Ah Chee  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+246,Will Ashcroft  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+247,Levi Ashcroft  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+248,Will McLachlan  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+249,Bruce Reville  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+250,Sam Marshall  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+251,Darcy Gardiner  ,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+252,Darcy Fort,Brisbane Lions,Western Bulldogs vs Brisbane Lions
+253,Jake Bowey  ,Melbourne,Melbourne vs Essendon
+254,Steven May  ,Melbourne,Melbourne vs Essendon
+255,Harrison Petty  ,Melbourne,Melbourne vs Essendon
+256,Trent Rivers  ,Melbourne,Melbourne vs Essendon
+257,Tom McDonald  ,Melbourne,Melbourne vs Essendon
+258,Christian Salem  ,Melbourne,Melbourne vs Essendon
+259,Kade Chandler  ,Melbourne,Melbourne vs Essendon
+260,Jack Viney  ,Melbourne,Melbourne vs Essendon
+261,Ed Langdon  ,Melbourne,Melbourne vs Essendon
+262,Jack Henderson  ,Melbourne,Melbourne vs Essendon
+263,Bayley Fritsch  ,Melbourne,Melbourne vs Essendon
+264,Kysaiah Pickett  ,Melbourne,Melbourne vs Essendon
+265,Jake Melksham  ,Melbourne,Melbourne vs Essendon
+266,Jacob van Rooyen  ,Melbourne,Melbourne vs Essendon
+267,Charlie Spargo  ,Melbourne,Melbourne vs Essendon
+268,Max Gawn  ,Melbourne,Melbourne vs Essendon
+269,Christian Petracca  ,Melbourne,Melbourne vs Essendon
+270,Harvey Langford  ,Melbourne,Melbourne vs Essendon
+271,Caleb Windsor  ,Melbourne,Melbourne vs Essendon
+272,Clayton Oliver  ,Melbourne,Melbourne vs Essendon
+273,Xavier Lindsay  ,Melbourne,Melbourne vs Essendon
+274,Harry Sharp  ,Melbourne,Melbourne vs Essendon
+275,Tom Sparrow  ,Melbourne,Melbourne vs Essendon
+276,Daniel Turner  ,Melbourne,Melbourne vs Essendon
+277,Jack Billings  ,Melbourne,Melbourne vs Essendon
+278,Tom Fullarton,Melbourne,Melbourne vs Essendon
+279,Andrew McGrath  ,Essendon,Melbourne vs Essendon
+280,Ben McKay  ,Essendon,Melbourne vs Essendon
+281,Jordan Ridley  ,Essendon,Melbourne vs Essendon
+282,Mason Redman  ,Essendon,Melbourne vs Essendon
+283,Zach Reid  ,Essendon,Melbourne vs Essendon
+284,Jaxon Prior  ,Essendon,Melbourne vs Essendon
+285,Xavier Duursma  ,Essendon,Melbourne vs Essendon
+286,Archie Perkins  ,Essendon,Melbourne vs Essendon
+287,Archie Roberts  ,Essendon,Melbourne vs Essendon
+288,Jade Gresham  ,Essendon,Melbourne vs Essendon
+289,Nate Caddy  ,Essendon,Melbourne vs Essendon
+290,Nic Martin  ,Essendon,Melbourne vs Essendon
+291,Harrison Jones  ,Essendon,Melbourne vs Essendon
+292,Sam Draper  ,Essendon,Melbourne vs Essendon
+293,Isaac Kako  ,Essendon,Melbourne vs Essendon
+294,Nick Bryan  ,Essendon,Melbourne vs Essendon
+295,Zach Merrett  ,Essendon,Melbourne vs Essendon
+296,Sam Durham  ,Essendon,Melbourne vs Essendon
+297,Ben Hobbs  ,Essendon,Melbourne vs Essendon
+298,Dylan Shiel  ,Essendon,Melbourne vs Essendon
+299,Will Setterfield  ,Essendon,Melbourne vs Essendon
+300,Jye Menzie  ,Essendon,Melbourne vs Essendon
+301,Saad El-Hawli  ,Essendon,Melbourne vs Essendon
+302,Elijah Tsatas  ,Essendon,Melbourne vs Essendon
+303,Lewis Hayes  ,Essendon,Melbourne vs Essendon
+304,Archer Day-Wicks,Essendon,Melbourne vs Essendon
+305,Nick Vlastuin  ,Richmond,Richmond vs Fremantle
+306,Ben Miller  ,Richmond,Richmond vs Fremantle
+307,Nathan Broad  ,Richmond,Richmond vs Fremantle
+308,Jayden Short  ,Richmond,Richmond vs Fremantle
+309,Luke Trainor  ,Richmond,Richmond vs Fremantle
+310,Tom Brown  ,Richmond,Richmond vs Fremantle
+311,Sam Banks  ,Richmond,Richmond vs Fremantle
+312,Kamdyn McIntosh  ,Richmond,Richmond vs Fremantle
+313,Tyler Sonsie  ,Richmond,Richmond vs Fremantle
+314,Jack Ross  ,Richmond,Richmond vs Fremantle
+315,Seth Campbell  ,Richmond,Richmond vs Fremantle
+316,Steely Green  ,Richmond,Richmond vs Fremantle
+317,Maurice Rioli  ,Richmond,Richmond vs Fremantle
+318,Tom Lynch  ,Richmond,Richmond vs Fremantle
+319,Jonty Faull  ,Richmond,Richmond vs Fremantle
+320,Toby Nankervis  ,Richmond,Richmond vs Fremantle
+321,Tim Taranto  ,Richmond,Richmond vs Fremantle
+322,Jacob Hopper  ,Richmond,Richmond vs Fremantle
+323,Jacob Blight  ,Richmond,Richmond vs Fremantle
+324,Hugo Ralphsmith  ,Richmond,Richmond vs Fremantle
+325,James Trezise  ,Richmond,Richmond vs Fremantle
+326,Thomson Dow  ,Richmond,Richmond vs Fremantle
+327,Jacob Bauer  ,Richmond,Richmond vs Fremantle
+328,Kaleb Smith  ,Richmond,Richmond vs Fremantle
+329,Samson Ryan  ,Richmond,Richmond vs Fremantle
+330,Campbell Gray,Richmond,Richmond vs Fremantle
+331,Joshua Draper  ,Fremantle,Richmond vs Fremantle
+332,Alex Pearce  ,Fremantle,Richmond vs Fremantle
+333,Brennan Cox  ,Fremantle,Richmond vs Fremantle
+334,Heath Chapman  ,Fremantle,Richmond vs Fremantle
+335,Luke Ryan  ,Fremantle,Richmond vs Fremantle
+336,Jordan Clark  ,Fremantle,Richmond vs Fremantle
+337,Murphy Reid  ,Fremantle,Richmond vs Fremantle
+338,Hayden Young  ,Fremantle,Richmond vs Fremantle
+339,Jaeger O'Meara  ,Fremantle,Richmond vs Fremantle
+340,Michael Frederick  ,Fremantle,Richmond vs Fremantle
+341,Sam Switkowski  ,Fremantle,Richmond vs Fremantle
+342,Shai Bolton  ,Fremantle,Richmond vs Fremantle
+343,Patrick Voss  ,Fremantle,Richmond vs Fremantle
+344,Josh Treacy  ,Fremantle,Richmond vs Fremantle
+345,Jye Amiss  ,Fremantle,Richmond vs Fremantle
+346,Sean Darcy  ,Fremantle,Richmond vs Fremantle
+347,Caleb Serong  ,Fremantle,Richmond vs Fremantle
+348,Andrew Brayshaw  ,Fremantle,Richmond vs Fremantle
+349,Matthew Johnson  ,Fremantle,Richmond vs Fremantle
+350,Jeremy Sharp  ,Fremantle,Richmond vs Fremantle
+351,Bailey Banfield  ,Fremantle,Richmond vs Fremantle
+352,Isaiah Dudley  ,Fremantle,Richmond vs Fremantle
+353,Karl Worner  ,Fremantle,Richmond vs Fremantle
+354,Oscar McDonald  ,Fremantle,Richmond vs Fremantle
+355,Liam Reidy  ,Fremantle,Richmond vs Fremantle
+356,James Aish,Fremantle,Richmond vs Fremantle
+357,Ryan Byrnes  ,St Kilda,St Kilda vs GWS
+358,Callum Wilkie  ,St Kilda,St Kilda vs GWS
+359,Jimmy Webster  ,St Kilda,St Kilda vs GWS
+360,Tobie Travaglia  ,St Kilda,St Kilda vs GWS
+361,Nasiah Wanganeen-Milera  ,St Kilda,St Kilda vs GWS
+362,Jack Sinclair  ,St Kilda,St Kilda vs GWS
+363,Mason Wood  ,St Kilda,St Kilda vs GWS
+364,Jack Steele  ,St Kilda,St Kilda vs GWS
+365,Marcus Windhager  ,St Kilda,St Kilda vs GWS
+366,Bradley Hill  ,St Kilda,St Kilda vs GWS
+367,Jack Higgins  ,St Kilda,St Kilda vs GWS
+368,Mitch Owens  ,St Kilda,St Kilda vs GWS
+369,Cooper Sharman  ,St Kilda,St Kilda vs GWS
+370,Anthony Caminiti  ,St Kilda,St Kilda vs GWS
+371,Darcy Wilson  ,St Kilda,St Kilda vs GWS
+372,Rowan Marshall  ,St Kilda,St Kilda vs GWS
+373,Jack Macrae  ,St Kilda,St Kilda vs GWS
+374,Hugo Garcia  ,St Kilda,St Kilda vs GWS
+375,Zak Jones  ,St Kilda,St Kilda vs GWS
+376,Lance Collard  ,St Kilda,St Kilda vs GWS
+377,Liam Stocker  ,St Kilda,St Kilda vs GWS
+378,Angus Hastie  ,St Kilda,St Kilda vs GWS
+379,Max Hall  ,St Kilda,St Kilda vs GWS
+380,Arie Schoenmaker  ,St Kilda,St Kilda vs GWS
+381,Harry Boyd  ,St Kilda,St Kilda vs GWS
+382,Hugh Boxshall,St Kilda,St Kilda vs GWS
+383,Connor Idun  ,GWS,St Kilda vs GWS
+384,Sam Taylor  ,GWS,St Kilda vs GWS
+385,Harry Himmelberg  ,GWS,St Kilda vs GWS
+386,Lachie Whitfield  ,GWS,St Kilda vs GWS
+387,Jack Buckley  ,GWS,St Kilda vs GWS
+388,Lachie Ash  ,GWS,St Kilda vs GWS
+389,Jacob Wehr  ,GWS,St Kilda vs GWS
+390,Finn Callaghan  ,GWS,St Kilda vs GWS
+391,Callan Ward  ,GWS,St Kilda vs GWS
+392,Darcy Jones  ,GWS,St Kilda vs GWS
+393,Jake Stringer  ,GWS,St Kilda vs GWS
+394,Toby Bedford  ,GWS,St Kilda vs GWS
+395,Toby Greene  ,GWS,St Kilda vs GWS
+396,Jesse Hogan  ,GWS,St Kilda vs GWS
+397,Aaron Cadman  ,GWS,St Kilda vs GWS
+398,Kieren Briggs  ,GWS,St Kilda vs GWS
+399,Josh Kelly  ,GWS,St Kilda vs GWS
+400,Tom Green  ,GWS,St Kilda vs GWS
+401,Xavier O'Halloran  ,GWS,St Kilda vs GWS
+402,Jake Riccardi  ,GWS,St Kilda vs GWS
+403,Conor Stone  ,GWS,St Kilda vs GWS
+404,Callum M. Brown  ,GWS,St Kilda vs GWS
+405,Harvey Thomas  ,GWS,St Kilda vs GWS
+406,Cody Angove  ,GWS,St Kilda vs GWS
+407,Toby McMullin  ,GWS,St Kilda vs GWS
+408,James Leake,GWS,St Kilda vs GWS
+409,Josh Sinn  ,Port Adelaide,Port Adelaide vs Hawthorn
+410,Aliir Aliir  ,Port Adelaide,Port Adelaide vs Hawthorn
+411,Miles Bergman  ,Port Adelaide,Port Adelaide vs Hawthorn
+412,Lachie Jones  ,Port Adelaide,Port Adelaide vs Hawthorn
+413,Esava Ratugolea  ,Port Adelaide,Port Adelaide vs Hawthorn
+414,Kane Farrell  ,Port Adelaide,Port Adelaide vs Hawthorn
+415,Christian Moraes  ,Port Adelaide,Port Adelaide vs Hawthorn
+416,Connor Rozee  ,Port Adelaide,Port Adelaide vs Hawthorn
+417,Jase Burgoyne  ,Port Adelaide,Port Adelaide vs Hawthorn
+418,Jackson Mead  ,Port Adelaide,Port Adelaide vs Hawthorn
+419,Mitch Georgiades  ,Port Adelaide,Port Adelaide vs Hawthorn
+420,Willie Rioli  ,Port Adelaide,Port Adelaide vs Hawthorn
+421,Sam Powell-Pepper  ,Port Adelaide,Port Adelaide vs Hawthorn
+422,Ollie Lord  ,Port Adelaide,Port Adelaide vs Hawthorn
+423,Joe Richards  ,Port Adelaide,Port Adelaide vs Hawthorn
+424,Jordon Sweet  ,Port Adelaide,Port Adelaide vs Hawthorn
+425,Jason Horne-Francis  ,Port Adelaide,Port Adelaide vs Hawthorn
+426,Zak Butters  ,Port Adelaide,Port Adelaide vs Hawthorn
+427,Willem Drew  ,Port Adelaide,Port Adelaide vs Hawthorn
+428,Ollie Wines  ,Port Adelaide,Port Adelaide vs Hawthorn
+429,Tom Cochrane  ,Port Adelaide,Port Adelaide vs Hawthorn
+430,Travis Boak  ,Port Adelaide,Port Adelaide vs Hawthorn
+431,Joe Berry  ,Port Adelaide,Port Adelaide vs Hawthorn
+432,Ivan Soldo  ,Port Adelaide,Port Adelaide vs Hawthorn
+433,Logan Evans  ,Port Adelaide,Port Adelaide vs Hawthorn
+434,Will Lorenz,Port Adelaide,Port Adelaide vs Hawthorn
+435,Tom Barrass  ,Hawthorn,Port Adelaide vs Hawthorn
+436,Blake Hardwick  ,Hawthorn,Port Adelaide vs Hawthorn
+437,James Sicily  ,Hawthorn,Port Adelaide vs Hawthorn
+438,Josh Battle  ,Hawthorn,Port Adelaide vs Hawthorn
+439,Jarman Impey  ,Hawthorn,Port Adelaide vs Hawthorn
+440,Josh Weddle  ,Hawthorn,Port Adelaide vs Hawthorn
+441,Karl Amon  ,Hawthorn,Port Adelaide vs Hawthorn
+442,Conor Nash  ,Hawthorn,Port Adelaide vs Hawthorn
+443,Changkuoth Jiath  ,Hawthorn,Port Adelaide vs Hawthorn
+444,Harry Morrison  ,Hawthorn,Port Adelaide vs Hawthorn
+445,Nick Watson  ,Hawthorn,Port Adelaide vs Hawthorn
+446,Jack Ginnivan  ,Hawthorn,Port Adelaide vs Hawthorn
+447,Finn Maginness  ,Hawthorn,Port Adelaide vs Hawthorn
+448,Mabior Chol  ,Hawthorn,Port Adelaide vs Hawthorn
+449,Dylan Moore  ,Hawthorn,Port Adelaide vs Hawthorn
+450,Lloyd Meek  ,Hawthorn,Port Adelaide vs Hawthorn
+451,Jai Newcombe  ,Hawthorn,Port Adelaide vs Hawthorn
+452,Josh Ward  ,Hawthorn,Port Adelaide vs Hawthorn
+453,Massimo D'Ambrosio  ,Hawthorn,Port Adelaide vs Hawthorn
+454,Cam Mackenzie  ,Hawthorn,Port Adelaide vs Hawthorn
+455,Jack Gunston  ,Hawthorn,Port Adelaide vs Hawthorn
+456,James Worpel  ,Hawthorn,Port Adelaide vs Hawthorn
+457,Luke Breust  ,Hawthorn,Port Adelaide vs Hawthorn
+458,Ned Reeves  ,Hawthorn,Port Adelaide vs Hawthorn
+459,Jai Serong  ,Hawthorn,Port Adelaide vs Hawthorn
+460,Henry Hustwaite,Hawthorn,Port Adelaide vs Hawthorn

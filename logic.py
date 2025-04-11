@@ -1,5 +1,6 @@
 import math
 import time
+import random
 from typing import List, Dict, Any, Optional, Tuple, Set
 
 # Tolerance for floating point comparisons
@@ -8,15 +9,16 @@ ODDS_TOLERANCE = 0.01  # e.g., target 10.0, accept 9.99 to 10.01
 # Set minimum and maximum legs for a multi
 MIN_LEGS = 2
 MAX_LEGS = 8
+MAX_COMBINED_LEGS = 17  # Higher limit for combined sports mode
 
 # Maximum number of alternatives to return
 MAX_ALTERNATIVES = 5
 
 # Maximum time allowed for algorithm execution (in seconds)
-MAX_EXECUTION_TIME = 2.0
+MAX_EXECUTION_TIME = 10.0
 
 # Maximum search space to consider
-MAX_COMBINATIONS_ESTIMATE = 10000
+MAX_COMBINATIONS_ESTIMATE = 100000
 
 # Maximum alternatives per player position
 MAX_PLAYER_ALTERNATIVES = 3
@@ -24,7 +26,8 @@ MAX_PLAYER_ALTERNATIVES = 3
 def find_multi_combination(
     bets_by_game: Dict[str, List[Dict[str, Any]]],
     target_odds: float,
-    num_alternatives: int = MAX_ALTERNATIVES
+    num_alternatives: int = MAX_ALTERNATIVES,
+    sport_type: str = 'nrl'
 ) -> Tuple[List[Dict[str, Any]], Dict[int, List[Dict[str, Any]]]]:
     """
     Finds a multi-bet combination that meets the target odds, plus alternative
@@ -33,22 +36,30 @@ def find_multi_combination(
     Enforces constraints:
     - Only one player from each game
     - Minimum of MIN_LEGS (2) players
-    - Maximum of MAX_LEGS (8) players
+    - Maximum legs depends on sport type:
+      - For 'nrl' or 'afl': MAX_LEGS (8) players
+      - For 'combined': MAX_COMBINED_LEGS (17) players
     
     Returns:
     - Tuple containing:
         1. Best multi combination (list of bets)
         2. Dictionary mapping position index to list of alternative players
     """
+    # Determine max legs based on sport type
+    max_allowed_legs = MAX_COMBINED_LEGS if sport_type == 'combined' else MAX_LEGS
+    
+    # Randomize game order for variety in results
     game_ids = list(bets_by_game.keys())
+    random.shuffle(game_ids)
     n_games = len(game_ids)
     
     # Estimate the search space size to abort early if it's too large
     total_bets = sum(len(bets) for bets in bets_by_game.values())
     avg_bets_per_game = total_bets / max(1, n_games)
-    estimated_combinations = min(pow(avg_bets_per_game, MAX_LEGS), pow(2, n_games) * avg_bets_per_game)
+    estimated_combinations = min(pow(avg_bets_per_game, max_allowed_legs), pow(2, n_games) * avg_bets_per_game)
     
     print(f"Estimated combinations: {estimated_combinations:.2e}, games: {n_games}, avg bets per game: {avg_bets_per_game:.2f}")
+    print(f"Using max legs: {max_allowed_legs} for sport type: {sport_type}")
     
     if estimated_combinations > MAX_COMBINATIONS_ESTIMATE:
         print(f"WARNING: Search space too large ({estimated_combinations:.2e} > {MAX_COMBINATIONS_ESTIMATE})")
@@ -83,7 +94,7 @@ def find_multi_combination(
             return
         
         # Check if we already have too many legs
-        if len(current_selection) > MAX_LEGS:
+        if len(current_selection) > max_allowed_legs:
             return
 
         # Check if current product is close enough to target and we have at least MIN_LEGS
@@ -126,15 +137,22 @@ def find_multi_combination(
 
         current_game_id = game_ids[game_idx]
 
-        # Option 1: Skip this game entirely
-        backtrack(game_idx + 1, current_product, current_selection)
+        # Randomize: sometimes skip a game, sometimes include it
+        # This adds variety to the results for the same inputs
+        if random.random() < 0.5:
+            # Option 1: Skip this game entirely
+            backtrack(game_idx + 1, current_product, current_selection)
         
         # If time limit exceeded or we found enough, stop recursion
         if time_limit_exceeded or solutions_found >= num_alternatives * 2:
             return
 
         # Option 2: Try each bet from the current game
-        for bet in bets_by_game[current_game_id]:
+        # Shuffle bets within this game for more variety
+        game_bets = list(bets_by_game[current_game_id])
+        random.shuffle(game_bets)
+        
+        for bet in game_bets:
             odds = bet.get('odds', 1.0)
             if odds <= 0: continue  # Skip invalid odds
 
@@ -164,8 +182,8 @@ def find_multi_combination(
         if not verify_one_bet_per_game(solution):
             solution = fix_multi_bets_same_game(solution)
         
-        # Only keep solutions that have between MIN_LEGS and MAX_LEGS
-        if MIN_LEGS <= len(solution) <= MAX_LEGS:
+        # Only keep solutions that have between MIN_LEGS and max_allowed_legs
+        if MIN_LEGS <= len(solution) <= max_allowed_legs:
             # Double-check we're within tolerance
             actual_odds = math.prod(leg['odds'] for leg in solution)
             if abs(actual_odds - target_odds) / target_odds <= 0.1:  # Within 10% of target
@@ -175,8 +193,10 @@ def find_multi_combination(
     if not valid_solutions:
         return [], {}
     
-    # Take the best solution as the main multi
-    best_multi = valid_solutions[0]
+    # Add randomization when selecting the best solution
+    # Instead of always picking the first solution, randomly pick from the top 3 (if available)
+    selection_count = min(3, len(valid_solutions))
+    best_multi = random.choice(valid_solutions[:selection_count])
     
     # Now find alternative player suggestions for each position in the best multi
     alternatives_by_position = find_player_alternatives(best_multi, bets_by_game, target_odds)

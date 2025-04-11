@@ -30,6 +30,14 @@ def generate_multi():
         win_amount = float(data.get('winAmount', 0))
         # New parameter to control number of alternatives (optional)
         num_alternatives = int(data.get('alternatives', MAX_PLAYER_ALTERNATIVES))
+        # Get sport type (nrl, afl, or combined)
+        sport_type = data.get('sportType', 'nrl')
+        
+        # Validate sport type
+        if sport_type not in ['nrl', 'afl', 'combined']:
+            sport_type = 'nrl'  # Default to NRL if invalid
+            
+        print(f"Sport type selected: {sport_type}")
 
         if stake <= 0 or win_amount <= stake:  # Win must be greater than stake
             return jsonify({"error": "Stake must be positive, and desired win must be greater than stake."}), 400
@@ -47,18 +55,23 @@ def generate_multi():
 
     # --- Core Logic ---
     try:
-        print(f"Processing request: stake=${stake}, win=${win_amount}, target_odds={target_odds:.2f}")
+        print(f"Processing request: stake=${stake}, win=${win_amount}, target_odds={target_odds:.2f}, sport={sport_type}")
         start_time = time.time()
         
-        # Get fresh data each time (or implement caching)
-        bets_by_game = get_bets_grouped_by_game()
+        # Get fresh data each time based on sport type
+        bets_by_game = get_bets_grouped_by_game(sport_type)
         if not bets_by_game:
-            return jsonify({"error": "Could not load betting data."}), 500
+            return jsonify({"error": f"Could not load betting data for {sport_type}."}), 500
             
-        print(f"Loaded betting data with {len(bets_by_game)} games")
+        print(f"Loaded betting data with {len(bets_by_game)} games for {sport_type}")
 
-        # Find the best multi combination and player alternatives
-        main_combination, alternatives_by_position = find_multi_combination(bets_by_game, target_odds, num_alternatives)
+        # Find the best multi combination and player alternatives - pass sport_type parameter
+        main_combination, alternatives_by_position = find_multi_combination(
+            bets_by_game, 
+            target_odds, 
+            num_alternatives,
+            sport_type
+        )
         
         elapsed_time = time.time() - start_time
         print(f"Search completed in {elapsed_time:.2f} seconds")
@@ -88,6 +101,7 @@ def generate_multi():
                 "message": "Multi combination found with player alternatives.",
                 "targetOdds": target_odds,
                 "stake": stake,
+                "sportType": sport_type,
                 "combination": {
                     "legs": main_combination,
                     "achievedOdds": round(actual_odds, 2),
@@ -96,10 +110,11 @@ def generate_multi():
                 "playerAlternatives": player_alternatives
             }), 200
         else:
-            print(f"No combinations found for target odds {target_odds:.2f}")
+            print(f"No combinations found for target odds {target_odds:.2f} with {sport_type}")
             return jsonify({
-                "message": f"No combination found matching target odds of {target_odds:.2f} (within tolerance {ODDS_TOLERANCE}). Try different stake/win amounts.",
+                "message": f"No combination found matching target odds of {target_odds:.2f} (within tolerance {ODDS_TOLERANCE}) for {sport_type}. Try different stake/win amounts or sport selection.",
                 "targetOdds": target_odds,
+                "sportType": sport_type,
                 "combination": None,
                 "playerAlternatives": {}
             }), 404  # Not Found might be appropriate
@@ -117,7 +132,7 @@ def generate_multi():
 # Health check endpoint for Railway
 @app.route('/health', methods=['GET'])
 def health_check():
-    return jsonify({"status": "healthy", "message": "NRL Multi-Backend is running"}), 200
+    return jsonify({"status": "healthy", "message": "Multi-Backend is running (NRL + AFL)"}), 200
 
 if __name__ == '__main__':
     # Get port from environment variable or use default
